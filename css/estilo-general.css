@@ -1,28 +1,41 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
-*{
+* {
     margin: 0%;
 }
-body{
+
+body {
     font-family: 'Roboto', sans-serif;
 }
-header{
-text-align: center;
-}
-main{
-text-align: center;
-}
-nav{
-    color: magenta;
+
+header {
     text-align: center;
-    background-color: lightseagreen;
 }
-footer{
+
+main {
+    text-align: center;
+}
+
+footer {
     text-align: center;
     font-size: 0.8em;
     font-style: italic;
-    background-color:#bab7b7;
+    background-color: #bab7b7;
 }
-h1{ 
+
+h1 {
     color: lightseagreen;
 }
 
+.menu ul {
+    flex-direction: row;
+    justify-content: space-around;
+    color: magenta;
+    background-color: lightseagreen;
+}
+
+.menu li {
+    display: inline-block;
+    list-style: none;
+    padding: 15px 10px;
+    text-align: center;
+}
