@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+*{
+    margin: 0%;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+text-align: center;
+}
+main{
+text-align: center;
+}
+nav{
+    color: magenta;
+    text-align: center;
+    background-color: lightseagreen;
+}
+footer{
+    text-align: center;
+    font-size: 0.8em;
+    font-style: italic;
+    background-color:#bab7b7;
+}
+h1{ 
+    color: lightseagreen;
+}
+
